@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Happy Dental and General Health Care — Redesign Concept</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#ffffff; --surface:#f8f9fa; --primary:#334155; --primary-d:#1e293b; --accent:#e2e8f0; --text:#0f172a; --muted:#64748b; --border:#e9ecef; --radius:8px; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; }
+a { color:inherit; }
+svg { width:18px; height:18px; flex-shrink:0; vertical-align:-3px; }
+.banner { background:var(--primary-d); color:#fff; text-align:center; font-size:13px; padding:9px 16px; }
+select#picker{position:fixed;bottom:8px;left:8px;z-index:999;font-size:11px;padding:3px 6px;border-radius:6px;border:1px solid var(--border);background:var(--surface);color:var(--text);opacity:.85;max-width:150px;}select#picker:hover{opacity:1;}
+
+body{font-family:'Inter',sans-serif;}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:600;}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px;}
+header{display:flex;align-items:center;justify-content:space-between;padding:16px 0 28px;}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:18px;}
+.brand svg{width:26px;height:26px;stroke:var(--primary);fill:none;stroke-width:1.6;}
+.cta{background:var(--primary);color:#fff;padding:10px 20px;border-radius:10px;font-size:13.5px;font-weight:600;text-decoration:none;}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;}
+.bento-cell{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;}
+.hero-cell{grid-column:span 4;background:linear-gradient(135deg,var(--primary),var(--primary-d));color:#fff;display:flex;flex-direction:column;justify-content:center;}
+.hero-cell .eyebrow{color:#fff;opacity:.85;font-weight:600;font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px;}
+.hero-cell h1{font-size:clamp(24px,3vw,34px);line-height:1.12;margin-bottom:14px;color:#fff;}
+.hero-cell p{opacity:.92;font-size:14.5px;margin-bottom:18px;}
+.hero-cell a{align-self:flex-start;background:#fff;color:var(--primary-d);padding:10px 20px;border-radius:999px;text-decoration:none;font-weight:700;font-size:13.5px;}
+.visual-cell{grid-column:span 2;background:var(--accent);display:flex;align-items:center;justify-content:center;}
+.visual-cell svg{width:50%;stroke:var(--primary-d);fill:none;stroke-width:1.2;}
+.stat-cell{grid-column:span 2;text-align:center;}
+.stat-cell b{display:block;font-size:26px;color:var(--primary);font-family:'Fraunces',serif;}
+.stat-cell span{color:var(--muted);font-size:12px;}
+.svc-cell{grid-column:span 3;}
+.svc-cell:nth-child(odd){grid-column:span 2;}
+.svc-icon{width:26px;height:26px;stroke:var(--primary);fill:none;stroke-width:1.5;margin-bottom:10px;}
+.svc-cell h3{font-size:15px;margin-bottom:5px;}
+.svc-cell p{color:var(--muted);font-size:13px;}
+.contact-cell{grid-column:span 3;}
+.contact-cell .row{display:flex;gap:10px;margin-bottom:12px;font-size:13.5px;}
+.contact-cell svg{width:18px;height:18px;stroke:var(--primary);fill:none;stroke-width:1.6;flex-shrink:0;}
+.map-cell{grid-column:span 3;padding:0;overflow:hidden;min-height:220px;}
+.map-cell iframe{width:100%;height:100%;border:0;min-height:220px;}
+.section-label{grid-column:1/-1;font-size:12.5px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-top:8px;}
+footer{grid-column:1/-1;text-align:center;color:var(--muted);font-size:12px;margin-top:10px;}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,1fr);}.hero-cell,.visual-cell,.svc-cell,.contact-cell,.map-cell,.stat-cell{grid-column:span 2 !important;}}
+
+</style>
+</head>
+<body>
+<select id="picker" onchange="location.href=this.value">
+<option value="/">v1 · Warm Coral</option>
+<option value="/v2/">v2 · Fresh Sky</option>
+<option value="/v3/">v3 · Deep Teal Dark</option>
+<option value="/v4/" selected>v4 · Minimal Clinical</option>
+<option value="/v5/">v5 · Health Green</option>
+</select>
+
+<div class="banner">Independent redesign concept for Happy Dental and General Health Care — not affiliated with or replacing their current site. This is a concept only — nothing is live under their name. Treatments shown are generic examples; replace with Happy Dental's own specialities, doctor profiles and approvals before use.</div><div class="wrap">
+<header><div class="brand"><svg viewBox="0 0 24 24" class=""><path d="M12 2C9 2 7 4 6 6c-1 2-1 5 0 8 .5 1.5 1 4 2 6 .5 1 1.5 1 2 0 .5-1.5.5-3 2-3s1.5 1.5 2 3c.5 1 1.5 1 2 0 1-2 1.5-4.5 2-6 1-3 1-6 0-8-1-2-3-4-6-4z"/></svg>Happy Dental and General Health Care</div><a class="cta" href="https://wa.me/919059768696">WhatsApp</a></header>
+<div class="grid">
+<div class="bento-cell hero-cell"><div class="eyebrow">Dental & General Health · Vijayawada</div><h1>Dental and general health care under one roof — one clear page for both.</h1><p>A faster, mobile-first concept for Happy Dental — built around what a patient looks for first: what's treated here, how to reach the clinic, and a quick way to book.</p><a href="https://wa.me/919059768696">Chat with us</a></div>
+<div class="bento-cell visual-cell"><svg viewBox="0 0 24 24" class=""><path d="M12 2C9 2 7 4 6 6c-1 2-1 5 0 8 .5 1.5 1 4 2 6 .5 1 1.5 1 2 0 .5-1.5.5-3 2-3s1.5 1.5 2 3c.5 1 1.5 1 2 0 1-2 1.5-4.5 2-6 1-3 1-6 0-8-1-2-3-4-6-4z"/></svg></div>
+<div class="bento-cell stat-cell"><b>Services</b><span>Dental + general health</span></div><div class="bento-cell stat-cell"><b>Based in</b><span>Vijayawada</span></div><div class="bento-cell stat-cell"><b>Booking</b><span>WhatsApp or call</span></div><div class="bento-cell stat-cell"><b>Response</b><span>Usually same day</span></div>
+<div class="section-label">Services</div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><path d="M12 2C9 2 7 4 6 6c-1 2-1 5 0 8 .5 1.5 1 4 2 6 .5 1 1.5 1 2 0 .5-1.5.5-3 2-3s1.5 1.5 2 3c.5 1 1.5 1 2 0 1-2 1.5-4.5 2-6 1-3 1-6 0-8-1-2-3-4-6-4z"/></svg><h3>General Dentistry</h3><p>Check-ups, cleaning and fillings.</p></div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg><h3>Root Canal Treatment</h3><p>Pain management and restoration.</p></div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><path d="M12 2l2.9 6 6.6.6-5 4.4 1.5 6.5L12 16l-5.9 3.5L7.6 13l-5-4.4 6.6-.6z"/></svg><h3>Orthodontics & Braces</h3><p>Alignment treatment for all ages.</p></div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><path d="M12 2l1.5 6.5L20 10l-6.5 1.5L12 18l-1.5-6.5L4 10l6.5-1.5z"/></svg><h3>General Health Consultations</h3><p>Everyday health concerns.</p></div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><h3>Pediatric Dentistry</h3><p>Dental care for children.</p></div>
+<div class="bento-cell svc-cell"><svg viewBox="0 0 24 24" class="svc-icon"><path d="M12 21s7-7.5 7-12a7 7 0 10-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><h3>Emergency Visits</h3><p>For urgent appointments.</p></div>
+<div class="section-label">Reach Out</div>
+<div class="bento-cell contact-cell">
+<div class="row"><svg viewBox="0 0 24 24" class=""><path d="M12 21s7-7.5 7-12a7 7 0 10-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg><span>Vijayawada, Andhra Pradesh</span></div>
+<div class="row"><svg viewBox="0 0 24 24" class=""><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg><span>+91 90597 68696</span></div>
+<div class="row"><svg viewBox="0 0 24 24" class=""><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>By appointment</span></div>
+</div>
+<div class="bento-cell map-cell"><iframe loading="lazy" src="https://maps.google.com/maps?q=Happy+Dental+and+General+Health+Care+Vijayawada&t=&z=14&ie=UTF8&iwloc=&output=embed"></iframe></div>
+<footer>Design preview — v4 · Minimal Clinical — not the business's live site.</footer>
+</div>
+</div>
+</body></html>
